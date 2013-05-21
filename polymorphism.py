@@ -39,7 +39,7 @@ class Bird(Animal):
 
 def playPet(Animal):
     print Animal.get_attribute('Name')
-    print Animal.talk()
+    Animal.talk()
 
 
 def main():
