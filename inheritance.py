@@ -7,7 +7,6 @@ class Animal(object):
 
     # private attribute
     __name = ""
-    __dictAttr = []
 
     # init method
     def __init__(self, **kvargs):
